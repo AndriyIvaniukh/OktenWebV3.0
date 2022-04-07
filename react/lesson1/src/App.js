@@ -1,7 +1,13 @@
+import {Users, Posts, Comments} from './components/index';
+
 function App() {
   return (
     <div className="App">
-        Hello world
+        <Users />
+        <hr/>
+        <Posts />
+        <hr/>
+        <Comments />
     </div>
   );
 }
