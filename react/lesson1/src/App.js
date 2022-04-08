@@ -1,7 +1,11 @@
+import Form2 from "./components/form2/Form2";
+
 function App() {
   return (
     <div className="App">
-        Hello world
+        {/*Hello world*/}
+
+        <Form2/>
     </div>
   );
 }
