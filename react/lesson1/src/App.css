@@ -1,0 +1,13 @@
+.dFlexColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.dFlexRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.width50{
+    width: 50%;
+}
