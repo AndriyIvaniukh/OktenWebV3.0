@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac73a1ab-4f78-49e3-b13f-f78daa9e8d33" name="Changes" comment="Add lesson 1 hm">
-      <change afterPath="$PROJECT_DIR$/lesson1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/form1/Form1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/form2/Form2.js" afterDir="false" />
+    <list default="true" id="ac73a1ab-4f78-49e3-b13f-f78daa9e8d33" name="Changes" comment="react testing forms">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AddCarForm/AddCarForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Car/Car.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Cars/Cars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DeleteCarForm/DeleteCarForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UpdateCarForm/UpdateCarForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/urls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/axios.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/cars.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form1/Form1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form2/Form2.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -24,7 +38,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../.." value="react_lesson1" />
+        <entry key="$PROJECT_DIR$/../.." value="react" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -53,7 +67,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="CONST" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
@@ -95,6 +111,7 @@
       <updated>1649199269633</updated>
       <workItem from="1649199272068" duration="243000" />
       <workItem from="1649332038299" duration="2859000" />
+      <workItem from="1649707765684" duration="9628000" />
     </task>
     <task id="LOCAL-00001" summary="Add lesson 1 hm">
       <created>1649334718233</created>
@@ -103,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649334718233</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="react testing forms">
+      <created>1649438661493</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649438661493</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +146,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add lesson 1 hm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add lesson 1 hm" />
+    <MESSAGE value="react testing forms" />
+    <option name="LAST_COMMIT_MESSAGE" value="react testing forms" />
   </component>
 </project>

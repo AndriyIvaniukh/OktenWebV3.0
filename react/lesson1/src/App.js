@@ -1,13 +1,26 @@
-import Form2 from "./components/form2/Form2";
+import {AddCarForm, Cars, DeleteCarForm, UpdateCarForm} from "./components";
+import {useState} from "react";
+
+import css from "./App.module.css";
+
 
 function App() {
-  return (
-    <div className="App">
-        {/*Hello world*/}
 
-        <Form2/>
-    </div>
-  );
+    const [newCar, setNewCar] = useState(null);
+    const [deletedCar, setDeletedCar] = useState(null);
+    const [updatedCar, setUpdatedCar] = useState(null)
+
+    return (
+        <div>
+            <div className={css.dFlexRow}>
+                <AddCarForm setNewCar={setNewCar}/>
+                <DeleteCarForm setDeletedCar={setDeletedCar}/>
+                <UpdateCarForm setUpdatedCar={setUpdatedCar}/>
+            </div>
+            <hr/>
+            <Cars newCar={newCar} deletedCar={deletedCar} updatedCar={updatedCar}/>
+        </div>
+    );
 }
 
 export default App;
