@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac73a1ab-4f78-49e3-b13f-f78daa9e8d33" name="Changes" comment="react testing forms">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AddCarForm/AddCarForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Car/Car.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Cars/Cars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DeleteCarForm/DeleteCarForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UpdateCarForm/UpdateCarForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/urls.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/axios.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/cars.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/index.js" afterDir="false" />
+    <list default="true" id="ac73a1ab-4f78-49e3-b13f-f78daa9e8d33" name="Changes" comment="add react hm lesson3">
+      <change afterPath="$PROJECT_DIR$/src/validators/car.validator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/validators/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/form1/Form1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/form2/Form2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AddCarForm/AddCarForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddCarForm/AddCarForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Car/Car.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Car/Car.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cars/Cars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cars/Cars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DeleteCarForm/DeleteCarForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UpdateCarForm/UpdateCarForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/urls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/urls.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +106,8 @@
       <updated>1649199269633</updated>
       <workItem from="1649199272068" duration="243000" />
       <workItem from="1649332038299" duration="2859000" />
-      <workItem from="1649707765684" duration="9628000" />
+      <workItem from="1649707765684" duration="10150000" />
+      <workItem from="1649770558075" duration="7894000" />
     </task>
     <task id="LOCAL-00001" summary="Add lesson 1 hm">
       <created>1649334718233</created>
@@ -127,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649438661493</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add react hm lesson3">
+      <created>1649719139984</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649719139984</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +150,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add lesson 1 hm" />
     <MESSAGE value="react testing forms" />
-    <option name="LAST_COMMIT_MESSAGE" value="react testing forms" />
+    <MESSAGE value="add react hm lesson3" />
+    <option name="LAST_COMMIT_MESSAGE" value="add react hm lesson3" />
   </component>
 </project>
