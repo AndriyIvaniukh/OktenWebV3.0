@@ -4,7 +4,7 @@ import {joiResolver} from "@hookform/resolvers/joi"
 import {carsService} from "../../services";
 import {carValidator} from "../../validators";
 
-const AddCarForm = ({setNewCar, carForUpdate, setUpdatedCar}) => {
+const AddCarForm = ({setNewCar, carForUpdate, setUpdatedCar, setCarForUpdate}) => {
 
     const {register, reset, handleSubmit, formState: {errors}, setValue} = useForm({
         resolver: joiResolver(carValidator),
@@ -19,6 +19,7 @@ const AddCarForm = ({setNewCar, carForUpdate, setUpdatedCar}) => {
         } else {
             setUpdatedCar({carForUpdate, car});
             await carsService.updateById(carForUpdate.id, car);
+            setCarForUpdate(null);
         }
     }
 

@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac73a1ab-4f78-49e3-b13f-f78daa9e8d33" name="Changes" comment="add react hm lesson3">
-      <change afterPath="$PROJECT_DIR$/src/validators/car.validator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/validators/index.js" afterDir="false" />
+    <list default="true" id="ac73a1ab-4f78-49e3-b13f-f78daa9e8d33" name="Changes" comment="add react hm lesson3 v2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AddCarForm/AddCarForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddCarForm/AddCarForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Car/Car.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Car/Car.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cars/Cars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cars/Cars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DeleteCarForm/DeleteCarForm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UpdateCarForm/UpdateCarForm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/urls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/urls.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +96,8 @@
       <workItem from="1649199272068" duration="243000" />
       <workItem from="1649332038299" duration="2859000" />
       <workItem from="1649707765684" duration="10150000" />
-      <workItem from="1649770558075" duration="7894000" />
+      <workItem from="1649770558075" duration="8289000" />
+      <workItem from="1649779416378" duration="208000" />
     </task>
     <task id="LOCAL-00001" summary="Add lesson 1 hm">
       <created>1649334718233</created>
@@ -130,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649719139984</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add react hm lesson3 v2">
+      <created>1649778981018</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649778981019</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +148,7 @@
     <MESSAGE value="Add lesson 1 hm" />
     <MESSAGE value="react testing forms" />
     <MESSAGE value="add react hm lesson3" />
-    <option name="LAST_COMMIT_MESSAGE" value="add react hm lesson3" />
+    <MESSAGE value="add react hm lesson3 v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add react hm lesson3 v2" />
   </component>
 </project>
