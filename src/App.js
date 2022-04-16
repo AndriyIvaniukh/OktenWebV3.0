@@ -1,4 +1,4 @@
-import {Users, Posts, Comments} from './components/index';
+import {Users, Posts, Comments} from './components';
 
 function App() {
   return (
